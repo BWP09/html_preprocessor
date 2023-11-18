@@ -1,5 +1,5 @@
-import preprocessor, sys
+import preprocessor
 
-prepro = preprocessor.HTMLPreprocessor(pretty=True)
+html = preprocessor.HTMLPreprocessor()
 
-prepro.process_html(levels = int(sys.argv[1]))
+html.process_html()
