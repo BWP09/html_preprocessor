@@ -5,6 +5,8 @@ This allows you to use basic html "components".
 
 ## Usage
 
+### EXAMPLE USAGE ABOVE IN `preprocessor` DIRECTORY
+
 Make the following directory structure:
 (The `preprocessor` directory name can be changed)
 
@@ -15,10 +17,13 @@ preprocessor
 |-templates
 ```
 
-The `shared` directory is where you put you components.
-File name is how you use them, omitting the extension.
+### Components
+
+The `shared` directory is where you put your components.
 Components *can* be use within other components.
 
 Ex: `sh:[navbar]`, will be replaced by the contents of `navbar.*`
 
-The `templates` directory is where your main HTML files are.
+### Templates
+
+The `templates` directory is where you put your main HTML files.
