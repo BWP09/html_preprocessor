@@ -14,3 +14,11 @@ preprocessor
 |-shared
 |-templates
 ```
+
+The `shared` directory is where you put you components.
+File name is how you use them, omitting the extension.
+Components *can* be use within other components.
+
+Ex: `sh:[navbar]`, will be replaced by the contents of `navbar.*`
+
+The `templates` directory is where your main HTML files are.
